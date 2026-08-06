@@ -22,6 +22,13 @@
 </p>
 
 ---
+<p align="center">
+
+🌐 [Live Demo](https://talksphere-learngridbasir.vercel.app/) •
+💻 [GitHub Repository](https://github.com/shekhbasir) •
+🎬 [Demo Video](https://www.linkedin.com/feed/update/urn:li:activity:7490148807490289665/)
+
+</p>
 
 ## 🌟 About The Project
 
@@ -1024,3 +1031,9 @@ YOUR_GITHUB_REPOSITORY_URL
 <p align="center">
   ⭐ Star this repository if you like the project!
 </p>
+
+
+
+
+
+<h1>THIS ALL ARE THE GALLARY</h1>
