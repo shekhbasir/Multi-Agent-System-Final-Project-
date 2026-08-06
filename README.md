@@ -27,8 +27,8 @@
 
 <p align="center">
 
-[🌐 Live Demo](YOUR_LIVE_URL) •
-[💻 GitHub](YOUR_GITHUB_URL) •
+[🌐 Live Demo](https://talksphere-learngridbasir.vercel.app/) •
+[💻 GitHub](https://github.com/shekhbasir) •
 [🎬 Demo Video](YOUR_VIDEO_URL)
 
 </p>
