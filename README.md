@@ -1,339 +1,437 @@
-# 🚀 Live Classes — AI-Powered Learning, Meetings, Jobs & Coding Platform
+# 🚀 LIVE CLASSES — AI-Powered Learning & Career Platform
 
 <p align="center">
-  <img src="https://img.shields.io/badge/MERN-Stack-61DAFB?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI-Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebRTC%20%2F%20ZEGO-Live%20Communication-8A2BE2?style=for-the-badge" />
+  <img src="./screenshots/logo.png" width="130" alt="Live Classes Logo"/>
+</p>
+
+<h1 align="center">🎓 LIVE CLASSES</h1>
+
+<p align="center">
+  <strong>Learn • Connect • Code • Attend • Get Certified • Discover Opportunities</strong>
 </p>
 
 <p align="center">
-  <strong>A modern all-in-one platform for live classes, meetings, AI-powered exams, jobs, coding practice, certificates and collaborative learning.</strong>
+  A modern full-stack platform combining real-time meetings, live classes, AI-powered examinations, collaborative learning, coding practice, certificates and real-time career opportunities in one ecosystem.
 </p>
 
 <p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-environment-variables">Environment Variables</a> •
-  <a href="#-project-structure">Structure</a> •
-  <a href="#-api-overview">API</a>
+
+![MERN](https://img.shields.io/badge/MERN-Stack-61DAFB?style=for-the-badge\&logo=react\&logoColor=white)
+![React](https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge\&logo=react\&logoColor=white)
+![Node](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge\&logo=node.js\&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-API-000000?style=for-the-badge\&logo=express\&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge\&logo=mongodb\&logoColor=white)
+![AI](https://img.shields.io/badge/AI-Gemini-4285F4?style=for-the-badge\&logo=google\&logoColor=white)
+
+</p>
+
+<p align="center">
+
+[🌐 Live Demo](YOUR_LIVE_URL) •
+[💻 GitHub](YOUR_GITHUB_URL) •
+[🎬 Demo Video](YOUR_VIDEO_URL)
+
 </p>
 
 ---
 
-## 🌟 About The Project
+# 🌟 Project Overview
 
-**Live Classes** is a full-stack, real-time learning and professional development platform built with the **MERN Stack**.
+**Live Classes** is a full-stack real-time learning and career development platform designed to bring multiple student-focused experiences into one application.
 
-The platform combines:
+Instead of using separate platforms for:
 
-* 🎥 Live meetings and classes
-* 👥 Multi-user sessions
-* 🤖 AI-generated examination questions
+* 🎥 Online meetings
+* 👨‍🏫 Live classes
+* 🎨 Collaborative whiteboards
 * 📝 Online examinations
-* 🧠 DSA and coding practice
-* 💻 Live coding experience
-* 💼 Real-time job discovery
-* 🎯 Profile-based job matching
-* 🏆 Automatic certificate generation
-* 🧑‍💻 Collaborative whiteboard
-* 🔐 Authentication and protected sessions
-* 📊 User progress and session tracking
+* 🤖 AI-generated questions
+* 💻 Coding & DSA practice
+* 🏆 Certificates
+* 💼 Job discovery
+* 🎯 Profile-based opportunity matching
 
-Instead of using different platforms for meetings, exams, coding practice, job discovery and certificates, this project brings these experiences together into one unified application.
+this project brings them together into a single modern ecosystem.
 
 ---
 
-# ✨ Key Features
+# 🎬 Project Demo
 
-## 🎥 1. Live Meeting & Class Platform
+<p align="center">
+  <a href="YOUR_VIDEO_URL">
+    <img src="./screenshots/demo/demo-thumbnail.png" width="850" alt="Project Demo"/>
+  </a>
+</p>
 
-Create and participate in real-time online sessions.
+<p align="center">
+  <strong>▶️ Click the image above to watch the complete project demonstration.</strong>
+</p>
 
-### Features
+---
 
-* 🚀 Create live sessions
-* 👑 Host-controlled meetings
-* 🔗 Join sessions using room IDs
+# 🌐 Live Application
+
+<p align="center">
+
+### 🚀 [OPEN LIVE PROJECT](YOUR_LIVE_URL)
+
+</p>
+
+> The application is deployed and available online.
+
+---
+
+# 📸 Project Showcase
+
+## 🏠 Home Page
+
+<p align="center">
+  <img src="./screenshots/home/home.png" width="900" alt="Home Page"/>
+</p>
+
+The landing page introduces the platform and provides access to its major learning, coding, meeting and career features.
+
+---
+
+# 🔐 Authentication
+
+## Login
+
+<p align="center">
+  <img src="./screenshots/auth/login.png" width="850" alt="Login Page"/>
+</p>
+
+## Register
+
+<p align="center">
+  <img src="./screenshots/auth/register.png" width="850" alt="Register Page"/>
+</p>
+
+### Authentication Features
+
+* 🔐 Secure authentication
+* 👤 User registration
+* 🔑 Login/logout
+* 🛡️ Protected routes
+* 🎫 JWT-based authorization
+* 👤 User-specific data
+* 🔒 Session-level access control
+
+---
+
+# 🎥 Live Classes & Meetings
+
+<p align="center">
+  <img src="./screenshots/meetings/meeting.png" width="900" alt="Live Meeting"/>
+</p>
+
+The platform provides real-time meeting and classroom functionality.
+
+### 🚀 Meeting Features
+
+* 🎥 Create meetings
+* 👑 Host sessions
+* 🔗 Join sessions
 * 👥 Multi-user participation
 * 🟢 Active session tracking
-* 🚪 Join / Leave session
-* 🛑 Host can end the session
-* 🔒 Public and private sessions
+* 🚪 Leave session
+* 🛑 End session
+* 🔒 Public/private sessions
 * 👤 Participant management
+* ⚡ Real-time communication
 * 📊 Session information
 * 🎬 Recording-ready architecture
-* ⚡ Real-time communication
-
-The platform is designed to support large live learning and meeting sessions.
 
 ---
 
-## 🧑‍🏫 2. Host Session
+# 👑 Host Session
 
-Hosts can create and manage live sessions.
+<p align="center">
+  <img src="./screenshots/meetings/host-session.png" width="900" alt="Host Session"/>
+</p>
 
-A host can configure:
+Hosts can create and manage live sessions with dedicated controls.
 
-* Meeting title
-* Description
-* Meeting type
-* Maximum participants
-* Session status
-* Session controls
-
-The host has additional privileges such as ending the session.
-
----
-
-## 👨‍🎓 3. Join Session
-
-Users can join available sessions using the generated room ID.
-
-The system handles:
-
-* Session validation
-* Session availability
-* Participant limits
-* Duplicate participation
-* Session status
-* User authentication
-* Participant tracking
-
----
-
-# 🧑‍💻 4. Live Coding Dashboard
-
-A dedicated coding environment for improving programming skills.
-
-### Includes
-
-* 💻 Coding practice
-* 🧠 DSA questions
-* 🏢 Real-world/company-style problems
-* 📚 Problem-solving practice
-* 📈 Skill improvement
-* 🎯 Interview preparation
-
-The goal is to help students prepare for technical interviews while practicing problem-solving.
-
----
-
-# 🧠 5. AI-Powered Examination System
-
-One of the major features of the platform is its AI-powered examination module.
-
-### AI capabilities
-
-* 🤖 Automatic question generation
-* 📝 Dynamic quiz creation
-* 🎯 Topic-based questions
-* 📊 Difficulty-based questions
-* ⚡ Automatic generation based on selected requirements
-* 🧩 Multiple-choice question support
-* 📈 Attempt tracking
-* 🏆 Result generation
-
-AI is used to dynamically generate questions instead of requiring every question to be manually entered.
-
----
-
-# 🏆 6. Automatic Certificate Generation
-
-After successfully completing eligible sessions/exams, the platform can generate certificates automatically.
-
-### Certificate system
-
-* 📜 Automatic certificate generation
-* 👤 User-specific certificate information
-* 🏅 Completion recognition
-* 🔐 Verification-oriented certificate flow
-* 📥 Certificate access/download
-* 🎓 Useful for learning achievements
-
----
-
-# 💼 7. Real-Time Job & Opportunity Platform
-
-The platform includes an integrated opportunity/job discovery system.
-
-### Features
-
-* 🔎 Job discovery
-* ⚡ Real-time opportunity synchronization
-* 📊 Large job/opportunity collection
-* 🎯 Profile-based matching
-* 🧠 Smart opportunity discovery
-* 🔗 Direct application links
-* 🏢 Company information
-* 📍 Location-based opportunities
-* 💼 Remote opportunities
-* 🧑‍💻 Technology/skill-based matching
-
-The system is designed to help users discover opportunities relevant to their profile instead of manually searching multiple websites.
-
----
-
-# 🎯 8. Profile-Based Opportunity Matching
-
-The platform can use user information and skills to help identify relevant opportunities.
-
-For example:
-
-```text
-User Skills
-    ↓
-Profile Information
-    ↓
-Opportunity Data
-    ↓
-Skill Matching
-    ↓
-Relevant Opportunities
-    ↓
-Apply
-```
-
-This makes the opportunity discovery process more personalized.
-
----
-
-# 🎨 9. Collaborative Whiteboard
-
-A collaborative whiteboard experience designed for live classes and meetings.
-
-Useful for:
-
-* 👨‍🏫 Teaching
-* 🧑‍🎓 Learning
-* 🧠 Explaining concepts
-* 📐 Drawing diagrams
-* 💡 Brainstorming
-* 👥 Collaborative sessions
-
----
-
-# 🔐 10. Authentication & Security
-
-The application includes protected user functionality and session-level access control.
-
-### Security-oriented features
-
-* 🔐 User authentication
-* 🍪 Secure authentication flow
-* 🔑 JWT-based authorization
-* 🔒 Protected routes
-* 👤 User-specific sessions
-* 👑 Host authorization
-* 🚫 Unauthorized action prevention
-* 🔐 Environment-based secret management
-
-> **Never commit `.env` files or API keys to GitHub.**
-
----
-
-# 🤖 11. AI Integration
-
-AI functionality is integrated into the application for intelligent content generation.
-
-Possible AI-powered workflows include:
-
-```text
-User Input
-    ↓
-AI Service
-    ↓
-Prompt Processing
-    ↓
-AI Model
-    ↓
-Generated Content
-    ↓
-Application
-```
-
-The AI service is primarily used for automatically generating examination/quiz content.
-
----
-
-# 📊 12. Session Management
-
-The backend manages the complete lifecycle of a meeting/session.
+### Host Capabilities
 
 ```text
 Create Session
       ↓
 Generate Room ID
       ↓
-Host Starts Session
+Configure Session
       ↓
-Users Join
+Start Live Session
       ↓
-Participants Tracked
+Manage Participants
       ↓
-Live Session
+Control Session
       ↓
-Users Leave
-      ↓
-Host Ends Session
-      ↓
-Session Completed
+End Session
 ```
 
 ---
 
-# ⚡ 13. Real-Time Experience
+# 👥 Join Live Session
 
-The application is designed around real-time interactions.
+<p align="center">
+  <img src="./screenshots/meetings/join-session.png" width="900" alt="Join Session"/>
+</p>
 
-Real-time functionality includes:
+Users can join available sessions and participate in real-time.
 
-* Live sessions
-* Participant presence
-* Session state
-* Live communication
-* Collaborative learning
-* Multi-user interaction
+The backend validates:
+
+* Session availability
+* Session status
+* Participant limits
+* Duplicate participation
+* Authentication
+* Room information
 
 ---
 
-# 🌐 Complete Platform Flow
+# 🎨 Collaborative Whiteboard
+
+<p align="center">
+  <img src="./screenshots/whiteboard/whiteboard.png" width="900" alt="Collaborative Whiteboard"/>
+</p>
+
+The collaborative whiteboard is designed for interactive learning and live teaching.
+
+### Useful For
+
+* 👨‍🏫 Teaching
+* 🧑‍🎓 Learning
+* 📐 Diagrams
+* 💡 Brainstorming
+* 🧠 Explaining concepts
+* 👥 Collaborative sessions
+
+---
+
+# 🤖 AI-Powered Examination
+
+<p align="center">
+  <img src="./screenshots/exam/ai-exam.png" width="900" alt="AI Examination"/>
+</p>
+
+One of the major features of the platform is the **AI-powered examination system**.
+
+The system can automatically generate questions based on selected requirements.
+
+### 🧠 AI Features
+
+* 🤖 Automatic question generation
+* 📝 Dynamic quizzes
+* 🎯 Topic-based questions
+* 📊 Difficulty-based questions
+* 🧩 MCQ generation
+* ⚡ Automatic question creation
+* 📈 Attempt tracking
+* 🏆 Result generation
+
+### AI Flow
 
 ```text
-                    ┌───────────────────────┐
-                    │       USER            │
-                    └───────────┬───────────┘
-                                │
-             ┌──────────────────┼──────────────────┐
-             │                  │                  │
-             ▼                  ▼                  ▼
-        Live Classes        Opportunities       Coding
-             │                  │                  │
-             ▼                  ▼                  ▼
-       Create / Join       Job Matching        DSA Practice
-             │                  │                  │
-             ▼                  ▼                  ▼
-        Live Session       Apply to Jobs       Improve Skills
-             │
-       ┌─────┴──────┐
-       ▼            ▼
-   Whiteboard      Exam
-                      │
-                      ▼
-                 AI Question
-                 Generation
-                      │
-                      ▼
-                   Attempt
-                      │
-                      ▼
-                    Result
-                      │
-                      ▼
-               Certificate
+User Requirements
+       ↓
+AI Prompt
+       ↓
+Gemini AI
+       ↓
+Question Generation
+       ↓
+Quiz
+       ↓
+User Attempt
+       ↓
+Evaluation
+       ↓
+Result
 ```
+
+---
+
+# 📝 Online Examination
+
+<p align="center">
+  <img src="./screenshots/exam/examination.png" width="900" alt="Online Examination"/>
+</p>
+
+The platform supports multi-user examination experiences with automatically generated questions.
+
+### Features
+
+* 👥 Multiple participants
+* 📝 Dynamic questions
+* ⏱️ Examination workflow
+* 🎯 Automatic question generation
+* 📊 Result tracking
+* 🏆 Completion tracking
+
+---
+
+# 🏆 Automatic Certificate Generation
+
+<p align="center">
+  <img src="./screenshots/certificates/certificate.png" width="900" alt="Certificate"/>
+</p>
+
+After successful completion of eligible learning or examination workflows, certificates can be generated automatically.
+
+### Certificate Features
+
+* 📜 Automatic certificate generation
+* 👤 User-specific details
+* 🏅 Achievement recognition
+* 🔐 Verification-oriented workflow
+* 📥 Certificate access
+* 🎓 Completion recognition
+
+---
+
+# 💻 Live Coding Dashboard
+
+<p align="center">
+  <img src="./screenshots/coding/live-coding.png" width="900" alt="Live Coding Dashboard"/>
+</p>
+
+The coding dashboard focuses on technical skill development and interview preparation.
+
+### Coding Features
+
+* 💻 Coding practice
+* 🧠 DSA questions
+* 🏢 Real-world company-style questions
+* 🎯 Interview preparation
+* 📚 Problem solving
+* 📈 Skill improvement
+* 🔥 Technical practice
+
+---
+
+# 🧠 DSA & Interview Preparation
+
+<p align="center">
+  <img src="./screenshots/coding/dsa.png" width="900" alt="DSA Dashboard"/>
+</p>
+
+The platform provides DSA-focused practice to help users prepare for technical interviews.
+
+Topics can include:
+
+* Arrays
+* Strings
+* Hashing
+* Two Pointer
+* Sliding Window
+* Stack
+* Queue
+* Linked List
+* Trees
+* Graphs
+* Recursion
+* Dynamic Programming
+* Problem Solving
+
+---
+
+# 💼 Opportunity Map
+
+<p align="center">
+  <img src="./screenshots/opportunities/opportunity-map.png" width="900" alt="Opportunity Map"/>
+</p>
+
+The **Opportunity Map** is designed to help users discover career opportunities without manually searching across multiple platforms.
+
+### 🚀 Features
+
+* 💼 Job discovery
+* ⚡ Real-time opportunity synchronization
+* 🔎 Search and filtering
+* 🎯 Profile-based matching
+* 🧠 Skill-based matching
+* 🏢 Company information
+* 📍 Location-based opportunities
+* 🏠 Remote opportunities
+* 🔗 Direct application links
+* 📊 Large opportunity collection
+
+---
+
+# 🎯 Profile-Based Job Matching
+
+<p align="center">
+  <img src="./screenshots/opportunities/matching.png" width="900" alt="Profile Based Matching"/>
+</p>
+
+The platform can compare user profile information with available opportunities to help surface relevant jobs.
+
+```text
+User Profile
+     ↓
+Skills / Technologies
+     ↓
+Opportunity Database
+     ↓
+Matching Logic
+     ↓
+Relevant Opportunities
+     ↓
+Apply
+```
+
+---
+
+# 📊 Opportunity Data
+
+<p align="center">
+  <img src="./screenshots/opportunities/jobs.png" width="900" alt="Jobs"/>
+</p>
+
+The opportunity system is designed to maintain a large collection of job and career opportunities with synchronization and filtering capabilities.
+
+---
+
+# 👤 User Profile
+
+<p align="center">
+  <img src="./screenshots/profile/profile.png" width="900" alt="User Profile"/>
+</p>
+
+The profile system allows users to maintain information useful for learning and career opportunity matching.
+
+---
+
+# ✨ More Platform Features
+
+<p align="center">
+  <img src="./screenshots/more/features.png" width="900" alt="More Features"/>
+</p>
+
+The platform also includes several supporting experiences and modern UI interactions designed to make the overall application engaging and easy to use.
+
+---
+
+# 🧩 Core Feature Summary
+
+| Feature               | Description                        |
+| --------------------- | ---------------------------------- |
+| 🎥 Live Meetings      | Real-time online meetings          |
+| 👑 Host Sessions      | Create and manage live sessions    |
+| 👥 Multi-User         | Multiple participants in sessions  |
+| 🎨 Whiteboard         | Collaborative learning             |
+| 🤖 AI Exam            | AI-generated questions             |
+| 📝 Examination        | Online assessments                 |
+| 🏆 Certificates       | Automatic certificate generation   |
+| 💻 Live Coding        | Coding and DSA practice            |
+| 🧠 DSA                | Interview preparation              |
+| 💼 Opportunity Map    | Job discovery                      |
+| 🎯 Matching           | Profile-based opportunity matching |
+| 🔐 Authentication     | Protected user experience          |
+| ⚡ Real-Time           | Live communication                 |
+| 📊 Session Management | Complete session lifecycle         |
 
 ---
 
@@ -341,47 +439,83 @@ Real-time functionality includes:
 
 ## Frontend
 
-* ⚛️ React.js
-* ⚡ Vite
-* 🎨 Tailwind CSS
-* 🎬 Framer Motion
-* 🧩 React Icons
-* 🌐 REST API integration
-* 🎥 ZEGO real-time communication
-* 🖥️ Modern responsive UI
+* React.js
+* Vite
+* Tailwind CSS
+* Framer Motion
+* React Icons
+* JavaScript
+* REST API Integration
+* ZEGO Cloud
 
 ## Backend
 
-* 🟢 Node.js
-* 🚂 Express.js
-* 🔐 JWT Authentication
-* 🍪 Cookie-based authentication
-* 🔌 Socket-based real-time functionality
-* 🤖 Gemini AI integration
-* 🌐 REST APIs
+* Node.js
+* Express.js
+* JWT
+* Authentication & Authorization
+* REST APIs
+* Real-Time Communication
+* Gemini AI Integration
 
 ## Database
 
-* 🍃 MongoDB
-* ☁️ MongoDB Atlas
-* 📦 Mongoose
+* MongoDB
+* MongoDB Atlas
+* Mongoose
 
 ## External Services
 
-* 🤖 Google Gemini API
-* 🎥 ZEGO Cloud
-* 💼 Adzuna Job API
-* ☁️ MongoDB Atlas
+* Google Gemini API
+* ZEGO Cloud
+* Adzuna API
+
+---
+
+# 🏗️ System Architecture
+
+```text
+                         ┌─────────────────────┐
+                         │       USER          │
+                         └──────────┬──────────┘
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │   React + Vite      │
+                         │     Frontend        │
+                         └──────────┬──────────┘
+                                    │
+                           REST API / Real-Time
+                                    │
+                                    ▼
+                         ┌─────────────────────┐
+                         │ Node.js + Express   │
+                         │      Backend        │
+                         └──────────┬──────────┘
+                                    │
+                ┌───────────────────┼───────────────────┐
+                │                   │                   │
+                ▼                   ▼                   ▼
+         ┌────────────┐      ┌────────────┐      ┌────────────┐
+         │  MongoDB   │      │  Gemini AI │      │  Adzuna    │
+         │   Atlas    │      │            │      │    API     │
+         └────────────┘      └────────────┘      └────────────┘
+                                    │
+                                    ▼
+                              ┌────────────┐
+                              │ ZEGO Cloud │
+                              │ Real-Time  │
+                              └────────────┘
+```
 
 ---
 
 # 📁 Project Structure
 
 ```text
-PROJECT/
+LIVE-CLASSES/
 │
 ├── Backend/
-│   │
 │   ├── config/
 │   ├── controllers/
 │   ├── middleware/
@@ -394,28 +528,41 @@ PROJECT/
 │   └── .env
 │
 ├── Frontend/
-│   │
 │   └── basir/
-│       ├── src/
 │       ├── public/
+│       ├── src/
 │       ├── package.json
-│       ├── vite.config.js
-│       └── .env
+│       └── vite.config.js
 │
-└── README.md
+├── screenshots/
+│   ├── demo/
+│   ├── home/
+│   ├── auth/
+│   ├── meetings/
+│   ├── whiteboard/
+│   ├── exam/
+│   ├── certificates/
+│   ├── coding/
+│   ├── opportunities/
+│   ├── profile/
+│   └── more/
+│
+├── .gitignore
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-# 🚀 Installation
+# 🚀 Installation & Setup
 
-## 1️⃣ Clone Repository
+## 1. Clone Repository
 
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-Then move into the project directory:
+Move into the project:
 
 ```bash
 cd YOUR_PROJECT_FOLDER
@@ -423,9 +570,9 @@ cd YOUR_PROJECT_FOLDER
 
 ---
 
-# 🔧 Backend Setup
+# ⚙️ Backend Setup
 
-Open the backend directory:
+Open a terminal:
 
 ```bash
 cd Backend
@@ -437,13 +584,19 @@ Install dependencies:
 npm install
 ```
 
-Create a `.env` file inside the `Backend` directory:
+Create:
 
 ```text
+Backend/.env
+```
+
+Add:
+
+```env
 CLIENT_URL=http://localhost:5173
 PORT=7000
 
-MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
+MONGO_URI=YOUR_MONGODB_URI
 
 SECRET_KEY=YOUR_SECRET_KEY
 REFRESH_SECRET_KEY=YOUR_REFRESH_SECRET_KEY
@@ -454,13 +607,13 @@ ADZUNA_APP_ID=YOUR_ADZUNA_APP_ID
 ADZUNA_APP_KEY=YOUR_ADZUNA_APP_KEY
 ```
 
-Then start the backend:
+Start backend:
 
 ```bash
 npm run dev
 ```
 
-Backend will normally run on:
+Backend:
 
 ```text
 http://localhost:7000
@@ -470,15 +623,13 @@ http://localhost:7000
 
 # 🎨 Frontend Setup
 
-Open a **new terminal**.
-
-Go to the frontend:
+Open a **second terminal**.
 
 ```bash
 cd Frontend
 ```
 
-Then enter the React/Vite project:
+Then:
 
 ```bash
 cd basir
@@ -490,26 +641,26 @@ Install dependencies:
 npm install
 ```
 
-Create a `.env` file inside:
+Create:
 
 ```text
-Frontend/basir/
+Frontend/basir/.env
 ```
 
 Add:
 
-```text
+```env
 VITE_ZEGO_APP_ID=YOUR_ZEGO_APP_ID
 VITE_ZEGO_SERVER_SECRET=YOUR_ZEGO_SERVER_SECRET
 ```
 
-Then start the frontend:
+Start frontend:
 
 ```bash
 npm run dev
 ```
 
-The frontend will normally be available at:
+Frontend:
 
 ```text
 http://localhost:5173
@@ -517,13 +668,11 @@ http://localhost:5173
 
 ---
 
-# 🔑 Environment Variables — Where To Get Them
+# 🔑 Environment Variables
 
-## 🍃 MongoDB URI
+## MongoDB
 
-Create a MongoDB Atlas account and create a database cluster.
-
-Then:
+Create a MongoDB Atlas database and obtain the connection string from:
 
 ```text
 MongoDB Atlas
@@ -534,158 +683,60 @@ Connect
     ↓
 Drivers
     ↓
-Copy Connection String
-```
-
-Your `.env` value will look similar to:
-
-```text
-MONGO_URI=mongodb+srv://USERNAME:PASSWORD@cluster.mongodb.net/DATABASE_NAME
-```
-
-Replace the username, password and database name with your own values.
-
----
-
-# 🤖 Gemini API Key
-
-The AI-powered question generation requires a Gemini API key.
-
-General process:
-
-```text
-Google AI / Gemini API Platform
-        ↓
-Sign in
-        ↓
-Create / Select Project
-        ↓
-Create API Key
-        ↓
-Copy API Key
-        ↓
-Add it to Backend/.env
+Connection String
 ```
 
 Use:
 
-```text
+```env
+MONGO_URI=YOUR_MONGODB_CONNECTION_STRING
+```
+
+---
+
+## 🤖 Gemini API
+
+Create a Gemini API key from Google's AI platform.
+
+Then:
+
+```env
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 ```
 
-**Do not publish the key on GitHub.**
+This is used for AI-powered question generation.
 
 ---
 
-# 💼 Adzuna API Credentials
+## 💼 Adzuna API
 
-The opportunity/job module uses Adzuna API credentials.
+Create an Adzuna developer/application account and obtain:
 
-General process:
-
-```text
-Adzuna Developer Account
-        ↓
-Create / Register Application
-        ↓
-Get App ID
-        ↓
-Get App Key
-        ↓
-Add credentials to .env
+```env
+ADZUNA_APP_ID=YOUR_APP_ID
+ADZUNA_APP_KEY=YOUR_APP_KEY
 ```
 
-Use:
-
-```text
-ADZUNA_APP_ID=YOUR_ADZUNA_APP_ID
-ADZUNA_APP_KEY=YOUR_ADZUNA_APP_KEY
-```
+These credentials are used by the opportunity/job functionality.
 
 ---
 
-# 🎥 ZEGO Cloud Credentials
+## 🎥 ZEGO Cloud
 
-ZEGO is used for real-time communication functionality.
+Create a ZEGO Cloud project/application and obtain:
 
-General process:
-
-```text
-ZEGO Cloud
-    ↓
-Create Account
-    ↓
-Create Project
-    ↓
-Create Application
-    ↓
-Get App ID
-    ↓
-Get Server Secret
+```env
+VITE_ZEGO_APP_ID=YOUR_APP_ID
+VITE_ZEGO_SERVER_SECRET=YOUR_SERVER_SECRET
 ```
 
-Then add:
-
-```text
-VITE_ZEGO_APP_ID=YOUR_ZEGO_APP_ID
-VITE_ZEGO_SERVER_SECRET=YOUR_ZEGO_SERVER_SECRET
-```
-
-> ⚠️ Keep your credentials private and never commit your real `.env` file.
+These credentials are used for real-time communication functionality.
 
 ---
 
-# 🔐 Important: `.gitignore`
+# 🧪 Run The Project
 
-Before pushing your project to GitHub, make sure `.env` files are ignored.
-
-Example:
-
-```gitignore
-node_modules/
-.env
-.env.local
-.env.development
-.env.production
-dist/
-build/
-```
-
-You can commit an example environment file instead:
-
-```text
-.env.example
-```
-
-Example:
-
-```text
-CLIENT_URL=http://localhost:5173
-PORT=7000
-
-MONGO_URI=
-
-SECRET_KEY=
-REFRESH_SECRET_KEY=
-
-GEMINI_API_KEY=
-
-ADZUNA_APP_ID=
-ADZUNA_APP_KEY=
-```
-
-For frontend:
-
-```text
-VITE_ZEGO_APP_ID=
-VITE_ZEGO_SERVER_SECRET=
-```
-
----
-
-# 🧪 Run The Complete Project Locally
-
-You need **two terminals**.
+You need two terminals.
 
 ### Terminal 1 — Backend
 
@@ -704,7 +755,7 @@ npm install
 npm run dev
 ```
 
-Then open:
+Then visit:
 
 ```text
 http://localhost:5173
@@ -712,37 +763,70 @@ http://localhost:5173
 
 ---
 
-# 🔄 Development Workflow
+# 🔐 Security
+
+**Never upload your actual `.env` files to GitHub.**
+
+Make sure `.gitignore` contains:
+
+```gitignore
+node_modules/
+.env
+.env.local
+.env.development
+.env.production
+dist/
+build/
+```
+
+Instead, create:
 
 ```text
-Clone Repository
-      ↓
-Install Backend Dependencies
-      ↓
-Configure Backend .env
-      ↓
-Start Backend
-      ↓
-Install Frontend Dependencies
-      ↓
-Configure Frontend .env
-      ↓
-Start Frontend
-      ↓
-Open Application
-      ↓
-Register / Login
-      ↓
-Use Platform
+.env.example
 ```
+
+Example:
+
+```env
+CLIENT_URL=http://localhost:5173
+PORT=7000
+
+MONGO_URI=
+
+SECRET_KEY=
+REFRESH_SECRET_KEY=
+
+GEMINI_API_KEY=
+
+ADZUNA_APP_ID=
+ADZUNA_APP_KEY=
+```
+
+Frontend:
+
+```env
+VITE_ZEGO_APP_ID=
+VITE_ZEGO_SERVER_SECRET=
+```
+
+### ⚠️ Never expose
+
+```text
+MongoDB Password
+JWT Secret
+Refresh Secret
+Gemini API Key
+Adzuna API Key
+ZEGO Server Secret
+```
+
+If a real secret is accidentally pushed to GitHub, rotate/revoke it immediately.
 
 ---
 
-# 🔌 API Overview
+# 🔌 API Modules
 
-The backend follows a modular REST API architecture.
-
-Major API areas include:
+The backend is organized into modular API routes.
 
 ### 🔐 Authentication
 
@@ -751,10 +835,10 @@ Register
 Login
 Logout
 User Details
-Authentication / Authorization
+Protected Routes
 ```
 
-### 🎥 Sessions
+### 🎥 Session
 
 ```text
 Create Session
@@ -763,264 +847,268 @@ Leave Session
 End Session
 Get My Sessions
 Get Active Sessions
-Get Session Details
-Get Session Participants
+Get Session
+Get Participants
 ```
 
-### 🤖 AI / Quiz
+### 🤖 AI / Examination
 
 ```text
 Generate Questions
 Create Quiz
-Start Attempt
+Start Examination
 Submit Answers
-Calculate Result
-Track Attempt
+Generate Result
 ```
 
 ### 💼 Opportunities
 
 ```text
 Sync Opportunities
-Fetch Opportunities
+Get Opportunities
 Filter Opportunities
-Match Opportunities
+Opportunity Matching
 Opportunity Details
 ```
 
 ### 🏆 Certificates
 
 ```text
+Generate Certificate
+Get Certificate
+Verify Certificate
+```
+
+---
+
+# 🔄 Complete User Journey
+
+```text
+                    REGISTER / LOGIN
+                           │
+                           ▼
+                    USER DASHBOARD
+                           │
+         ┌─────────────────┼─────────────────┐
+         │                 │                 │
+         ▼                 ▼                 ▼
+   LIVE CLASSES       OPPORTUNITY MAP     CODING
+         │                 │                 │
+         ▼                 ▼                 ▼
+   CREATE / JOIN       JOB MATCHING       DSA
+         │                 │                 │
+         ▼                 ▼                 ▼
+    LIVE SESSION          APPLY          PRACTICE
+         │
+    ┌────┴─────┐
+    │          │
+    ▼          ▼
+WHITEBOARD    EXAM
+                 │
+                 ▼
+             AI QUESTIONS
+                 │
+                 ▼
+              ATTEMPT
+                 │
+                 ▼
+               RESULT
+                 │
+                 ▼
+            CERTIFICATE
+```
+
+---
+
+# 📈 Why This Project Is Different
+
+This is not just a video meeting application.
+
+It combines multiple real-world systems:
+
+```text
+Real-Time Communication
+          +
+AI
+          +
+Online Examination
+          +
+Collaborative Learning
+          +
+Coding & DSA
+          +
+Career Opportunities
+          +
+Profile Matching
+          +
 Certificate Generation
-Certificate Access
-Certificate Verification
 ```
 
-> API routes can change as the application evolves. Refer to the backend `routes/` directory for the current implementation.
+The project demonstrates practical experience in:
+
+* Full-stack development
+* REST API development
+* Authentication
+* Database design
+* Real-time communication
+* AI integration
+* External API integration
+* Cloud deployment
+* Responsive UI
+* Modern frontend architecture
 
 ---
 
-# 🏗️ Architecture
+# 🚀 Deployment
+
+The project is designed to be deployed using modern cloud hosting platforms.
+
+Typical production architecture:
 
 ```text
-                 ┌──────────────────────┐
-                 │      React + Vite    │
-                 │      Frontend        │
-                 └──────────┬───────────┘
-                            │
-                       REST / Socket
-                            │
-                            ▼
-                 ┌──────────────────────┐
-                 │    Express + Node    │
-                 │      Backend         │
-                 └──────────┬───────────┘
-                            │
-          ┌─────────────────┼─────────────────┐
-          │                 │                 │
-          ▼                 ▼                 ▼
-      MongoDB            Gemini           External APIs
-      Atlas                AI               Adzuna
-          │                                   │
-          │                                   │
-          └─────────────────┬─────────────────┘
-                            │
-                            ▼
-                      ZEGO Cloud
-                   Real-Time Services
+                    INTERNET
+                       │
+                       ▼
+                ┌─────────────┐
+                │   Frontend  │
+                │   Hosting   │
+                └──────┬──────┘
+                       │
+                       ▼
+                ┌─────────────┐
+                │   Backend   │
+                │   Hosting   │
+                └──────┬──────┘
+                       │
+            ┌──────────┼──────────┐
+            ▼          ▼          ▼
+         MongoDB    Gemini      Adzuna
+          Atlas       AI         API
+                       │
+                       ▼
+                   ZEGO Cloud
 ```
 
 ---
 
-# 📌 Main Modules
+# 🔮 Future Improvements
 
-| Module            | Purpose                            |
-| ----------------- | ---------------------------------- |
-| 🔐 Authentication | Secure user access                 |
-| 👤 User Profile   | Manage user information            |
-| 🎥 Live Sessions  | Create and join meetings           |
-| 👑 Host Controls  | Manage live sessions               |
-| 👥 Participants   | Track session members              |
-| 🎨 Whiteboard     | Collaborative learning             |
-| 🤖 AI Quiz        | Automatic question generation      |
-| 📝 Examination    | Online assessment                  |
-| 🏆 Certificates   | Automatic achievement certificates |
-| 💼 Opportunities  | Job and opportunity discovery      |
-| 🎯 Matching       | Profile-based opportunity matching |
-| 💻 Coding         | DSA and interview preparation      |
-| ⚡ Real-Time       | Live communication and interaction |
-
----
-
-# 🎯 Why This Project?
-
-The main goal is to create a unified ecosystem where students and learners can:
-
-```text
-LEARN
-  ↓
-ATTEND LIVE CLASSES
-  ↓
-PRACTICE DSA
-  ↓
-TAKE AI-POWERED EXAMS
-  ↓
-EARN CERTIFICATES
-  ↓
-DISCOVER JOBS
-  ↓
-MATCH WITH OPPORTUNITIES
-  ↓
-APPLY
-```
-
-This makes the platform useful not only for online learning but also for **career preparation and professional development**.
-
----
-
-# 🚀 Future Enhancements
-
-Planned improvements can include:
-
-* 📱 Dedicated mobile application
+* 📱 Mobile application
 * 🔔 Push notifications
 * 📧 Email notifications
-* 🧠 More advanced AI personalization
-* 📊 Advanced analytics dashboard
+* 🧠 Advanced AI personalization
+* 📊 Advanced analytics
 * 🏢 Company-specific coding tracks
 * 🎯 Advanced recommendation engine
-* 🏆 Gamification and leaderboards
-* 📚 Course management system
+* 🏆 Gamification
+* 🏅 Leaderboards
+* 📚 Course management
 * 👨‍🏫 Instructor dashboard
-* 📈 Advanced learning analytics
-* 🔎 More opportunity providers
-* 🔐 Stronger certificate verification
-* ☁️ Improved cloud scalability
+* 📈 Learning analytics
+* 🔎 Additional opportunity providers
+* 🔐 Advanced certificate verification
 
 ---
 
-# 🔒 Security Notes
-
-Never commit these files:
-
-```text
-.env
-.env.local
-.env.production
-```
-
-Never publish:
-
-```text
-MongoDB Password
-JWT Secret
-Refresh Token Secret
-Gemini API Key
-Adzuna API Key
-ZEGO Server Secret
-```
-
-If a secret is accidentally pushed to GitHub:
-
-1. Remove it from the repository.
-2. Rotate/revoke the exposed credential.
-3. Generate a new credential.
-4. Update your deployment environment.
-5. Check Git history if the secret was committed previously.
-
----
-
-# 🧑‍💻 Contributing
+# 🤝 Contributing
 
 Contributions are welcome!
 
-### 1. Fork the repository
+### Fork
 
 ```bash
 git fork
 ```
 
-### 2. Clone your fork
+### Clone
 
 ```bash
 git clone YOUR_FORK_URL
 ```
 
-### 3. Create a branch
+### Create Branch
 
 ```bash
 git checkout -b feature/new-feature
 ```
 
-### 4. Make your changes
-
-### 5. Commit
+### Commit
 
 ```bash
 git add .
 git commit -m "feat: add new feature"
 ```
 
-### 6. Push
+### Push
 
 ```bash
 git push origin feature/new-feature
 ```
 
-### 7. Create a Pull Request
+Then open a Pull Request.
 
 ---
 
 # ⭐ Support
 
-If you find this project useful, consider giving the repository a ⭐ on GitHub.
+If you like this project, please consider giving the repository a ⭐.
 
-It helps support the project and motivates further development.
-
----
-
-# 📜 License
-
-This project is available for educational and development purposes.
-
-Add your preferred license here if you decide to publish the project under an open-source license.
+Your support is greatly appreciated!
 
 ---
 
 # 👨‍💻 Developer
 
+<p align="center">
+
 ## Sheikh Basir
 
-**Full Stack Developer | MERN Stack | AI | Cloud & Real-Time Applications**
+**Full Stack Developer | MERN | AI | Cloud | Real-Time Applications**
 
-Interested in building modern full-stack applications, AI-powered products, real-time systems and scalable cloud-based solutions.
+</p>
+
+<p align="center">
+  Building modern full-stack applications focused on learning, AI, real-time communication and career development.
+</p>
 
 ---
 
-# 🌐 Project Links
+# 🔗 Important Links
 
-### 🚀 Live Application
+<p align="center">
 
-```text
-YOUR_LIVE_PROJECT_URL
-```
+### 🌐 Live Application
+
+**[🚀 Open Live Project](YOUR_LIVE_URL)**
 
 ### 💻 GitHub Repository
 
-```text
-YOUR_GITHUB_REPOSITORY_URL
-```
+**[⭐ View Source Code](YOUR_GITHUB_URL)**
+
+### 🎬 Project Demo
+
+**[▶️ Watch Demo Video](YOUR_VIDEO_URL)**
+
+</p>
 
 ---
 
+# ❤️ Built With Passion
+
 <p align="center">
-  <strong>Built with ❤️ using MERN, AI, Real-Time Technologies & Modern Web Development.</strong>
+
+**Learn. Code. Connect. Practice. Get Certified. Get Opportunities.**
+
 </p>
 
 <p align="center">
-  🚀 Learn • Code • Connect • Practice • Get Certified • Get Opportunities 🚀
+
+🚀 **LIVE CLASSES — One Platform. Multiple Possibilities.** 🚀
+
 </p>
 
 <p align="center">
-  ⭐ Star this repository if you like the project!
+
+⭐ If you found this project interesting, don't forget to star the repository!
+
 </p>
