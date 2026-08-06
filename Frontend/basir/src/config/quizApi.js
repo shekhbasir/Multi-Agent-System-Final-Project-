@@ -3,7 +3,7 @@ import axios from "axios";
 import { attachAuthInterceptor } from "./authInterceptor";
 
 const quizApi = axios.create({
-  baseURL: "http://localhost:7000/api/quiz",
+  baseURL: "https://multi-agent-system-final-project.onrender.com/api/quiz",
   withCredentials: true,
 });
 

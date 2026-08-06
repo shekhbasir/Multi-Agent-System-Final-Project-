@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const opportunityApi = axios.create({
-  baseURL: "http://localhost:7000/api/opportunities",
+  baseURL:
+    "https://multi-agent-system-final-project.onrender.com/api/opportunities",
   withCredentials: true,
 });
 

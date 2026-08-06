@@ -37,9 +37,12 @@ function DasNav() {
 
   const getUser = async () => {
     try {
-      const res = await axios.get("http://localhost:7000/api/auth/alldata", {
-        withCredentials: true,
-      });
+      const res = await axios.get(
+        "https://multi-agent-system-final-project.onrender.com/api/auth/alldata",
+        {
+          withCredentials: true,
+        },
+      );
 
       setUser(res.data.sabdata);
     } catch (error) {
@@ -67,9 +70,12 @@ function DasNav() {
 
   const logout = async () => {
     try {
-      await axios.get("http://localhost:7000/api/auth/logout", {
-        withCredentials: true,
-      });
+      await axios.get(
+        "https://multi-agent-system-final-project.onrender.com/api/auth/logout",
+        {
+          withCredentials: true,
+        },
+      );
 
       window.location.href = "/login";
     } catch (error) {

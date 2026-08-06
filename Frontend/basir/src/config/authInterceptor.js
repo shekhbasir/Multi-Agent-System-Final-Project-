@@ -3,7 +3,7 @@ import axios from "axios";
 let refreshPromise = null;
 
 const authClient = axios.create({
-  baseURL: "http://localhost:7000/api/auth",
+  baseURL: "https://multi-agent-system-final-project.onrender.com/api/auth",
   withCredentials: true,
 });
 

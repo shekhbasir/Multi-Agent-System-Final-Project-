@@ -3,7 +3,7 @@ import axios from "axios";
 import { attachAuthInterceptor } from "./authInterceptor";
 
 const sessionApi = axios.create({
-  baseURL: "http://localhost:7000/api/session",
+  baseURL: "https://multi-agent-system-final-project.onrender.com/api/session",
   withCredentials: true,
 });
 

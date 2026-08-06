@@ -2,7 +2,7 @@ import axios from "axios";
 import { attachAuthInterceptor } from "./authInterceptor";
 
 const api = axios.create({
-  baseURL: "http://localhost:7000/api/auth",
+  baseURL: "https://multi-agent-system-final-project.onrender.com/api/auth",
   withCredentials: true,
 });
 

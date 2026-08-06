@@ -3,7 +3,8 @@ import axios from "axios";
 import { attachAuthInterceptor } from "./authInterceptor";
 
 const certificateApi = axios.create({
-  baseURL: "http://localhost:7000/api/certificate",
+  baseURL:
+    "https://multi-agent-system-final-project.onrender.com/api/certificate",
   withCredentials: true,
 });
 

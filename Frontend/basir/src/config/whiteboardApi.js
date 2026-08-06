@@ -3,7 +3,8 @@ import axios from "axios";
 import { attachAuthInterceptor } from "./authInterceptor";
 
 const whiteboardApi = axios.create({
-  baseURL: "http://localhost:7000/api/whiteboard",
+  baseURL:
+    "https://multi-agent-system-final-project.onrender.com/api/whiteboard",
   withCredentials: true,
 });
 
