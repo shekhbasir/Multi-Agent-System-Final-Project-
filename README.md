@@ -1009,13 +1009,13 @@ Interested in building modern full-stack applications, AI-powered products, real
 ### 🚀 Live Application
 
 ```text
-YOUR_LIVE_PROJECT_URL
+https://talksphere-learngridbasir.vercel.app/
 ```
 
 ### 💻 GitHub Repository
 
 ```text
-YOUR_GITHUB_REPOSITORY_URL
+https://github.com/shekhbasir/Multi-Agent-System-Final-Project-
 ```
 
 ---
